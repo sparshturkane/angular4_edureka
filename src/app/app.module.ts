@@ -13,7 +13,7 @@ import { MovieslistService } from './services/movieslist/movieslist.service';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [MovieslistService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
